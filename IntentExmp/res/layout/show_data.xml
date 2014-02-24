@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <TextView
+        android:id="@+id/pTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" 
+        android:padding="10dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00" >
+
+        <TextView
+            android:id="@+id/firstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/First_Name" />
+    
+		<TextView
+	        android:id="@+id/pFName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hello_world" 
+	        android:paddingLeft="10dp"/>
+		
+		
+	</LinearLayout>	
+	
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00" >
+
+        <TextView
+            android:id="@+id/lastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Last_Name" />
+		<TextView
+	        android:id="@+id/pLName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hello_world" 
+	        android:paddingLeft="10dp"/>
+	</LinearLayout>
+	
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00" >
+
+        <TextView
+            android:id="@+id/addressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Address" />
+		<TextView
+	        android:id="@+id/pAddress"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hello_world" 
+	        android:paddingLeft="10dp"/>
+	</LinearLayout>
+	
+	
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00" >
+
+        <TextView
+            android:id="@+id/card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Card_Number" />
+		<TextView
+	        android:id="@+id/pCardNo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hello_world" 
+	        android:paddingLeft="10dp"/>
+    </LinearLayout>
+	
+	<TextView
+        android:id="@+id/sqlTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" 
+        android:padding="10dp"/>
+	
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00" >
+
+        <TextView
+            android:id="@+id/sqlfirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/First_Name" />
+		<TextView
+	        android:id="@+id/sqlFName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hello_world" 
+	        android:paddingLeft="10dp"/>
+	</LinearLayout>
+	
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00" >
+
+        <TextView
+            android:id="@+id/sqlLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Last_Name" />
+		<TextView
+	        android:id="@+id/sqlLName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hello_world" 
+	        android:paddingLeft="10dp"/>
+	</LinearLayout>	
+	
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00" >
+
+        <TextView
+            android:id="@+id/sqladdressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Address" />
+		<TextView
+	        android:id="@+id/sqlAddress"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hello_world" 
+	        android:paddingLeft="10dp"/>
+	</LinearLayout>
+	
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00" >
+
+        <TextView
+            android:id="@+id/sqlcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Card_Number" />
+		<TextView
+	        android:id="@+id/sqlLContactNo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hello_world" 
+	        android:paddingLeft="10dp"/>
+	</LinearLayout>
+</LinearLayout>

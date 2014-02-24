@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FirstRun</string>
+    <string name="action_settings">Settings</string>
+    <!--  <string name="hello_world">Hello world!</string>
+	<string name="Button"><a href="http://www.sjsu.edu/">Click here for google</a></string>-->
+	<string name="button_label">Stock Ticker</string>
+    <string name="content">image</string>
+	
+</resources>
